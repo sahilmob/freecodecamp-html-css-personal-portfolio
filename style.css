@@ -55,4 +55,63 @@ body #main-content #welcome-section h1 {
 body #main-content #welcome-section #tag-line {
   color: green;
 }
+
+body #main-content #projects #projects-header {
+  text-align: center;
+  color: #008080;
+  margin: 40px auto;
+  font-weight: lighter;
+}
+
+body #main-content #projects #projects-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33.3% 33.3% 33.3%;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-row-gap: 70px;
+  justify-items: center;
+}
+
+body #main-content #projects #projects-content .project {
+  width: 280px;
+  height: 220px;
+  border: 2px solid lightblue;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+body #main-content #projects #projects-content .project img {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid lightblue;
+}
+
+body #main-content #projects #projects-content .project > .project-title {
+  text-align: center;
+  color: #008080;
+}
+
+body #main-content #projects #show_all {
+  margin: 60px auto;
+  text-align: center;
+}
+
+body #main-content #projects #show_all > a {
+  margin: auto;
+  display: block;
+  text-decoration: none;
+  color: #008080;
+  font-weight: bold;
+  background-color: #e0ebe8;
+  border: 2px solid #90C695;
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  padding-top: 10px;
+}
+
+body #main-content #projects #show_all > a:hover {
+  background-color: #E4F1FE;
+  color: green;
+}
 /*# sourceMappingURL=style.css.map */
