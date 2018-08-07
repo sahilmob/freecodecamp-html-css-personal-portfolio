@@ -3,6 +3,10 @@ html, body {
   padding: 0;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body nav {
   background-color: #e0ebe8;
   display: -webkit-box;
