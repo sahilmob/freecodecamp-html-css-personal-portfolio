@@ -162,6 +162,11 @@ body #main-content #contact #profile-links > .link {
   border-radius: 50%;
 }
 
+body #main-content #contact #profile-links > .link:hover {
+  background-color: #E4F1FE;
+  color: green;
+}
+
 body #main-content footer {
   background-color: #22313F;
   color: #fff;
@@ -179,5 +184,12 @@ body #main-content footer p a {
 
 body #main-content footer p:last-of-type {
   margin-top: 10px;
+}
+
+@media (min-width: 892px) and (max-width: 1330px) {
+  body #main-content #projects #projects-content {
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

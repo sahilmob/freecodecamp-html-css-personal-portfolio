@@ -97,6 +97,10 @@ body
                     background-color: #e0ebe8
                     border: 2px solid #90C695
                     border-radius: 50%
+                    &:hover
+                        background-color:#E4F1FE  
+                        color: green
+
         footer
             background-color: #22313F
             color: #fff
@@ -108,4 +112,10 @@ body
                     color: #fff
                 &:last-of-type
                     margin-top: 10px
-                
+
+@media (min-width: 892px) and (max-width: 1330px)
+    body
+        #main-content
+            #projects
+                #projects-content
+                    grid-template-columns: 50% 50%
