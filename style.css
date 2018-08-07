@@ -206,4 +206,15 @@ body #main-content footer p:last-of-type {
         flex-wrap: wrap;
   }
 }
+
+@media (max-width: 450px) {
+  body nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body nav a {
+    margin: 25px 20px 15px 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
