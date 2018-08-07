@@ -192,4 +192,11 @@ body #main-content footer p:last-of-type {
         grid-template-columns: 50% 50%;
   }
 }
+
+@media (max-width: 892px) {
+  body #main-content #projects #projects-content {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
