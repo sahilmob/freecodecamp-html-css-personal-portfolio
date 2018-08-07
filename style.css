@@ -161,4 +161,23 @@ body #main-content #contact #profile-links > .link {
   border: 2px solid #90C695;
   border-radius: 50%;
 }
+
+body #main-content footer {
+  background-color: #22313F;
+  color: #fff;
+  padding: 20px 0;
+}
+
+body #main-content footer p {
+  margin: 0;
+  text-align: center;
+}
+
+body #main-content footer p a {
+  color: #fff;
+}
+
+body #main-content footer p:last-of-type {
+  margin-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
