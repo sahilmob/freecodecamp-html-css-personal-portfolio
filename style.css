@@ -199,4 +199,11 @@ body #main-content footer p:last-of-type {
         grid-template-columns: 100%;
   }
 }
+
+@media (max-width: 816px) {
+  body #contact #profile-links {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 /*# sourceMappingURL=style.css.map */
