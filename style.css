@@ -79,7 +79,7 @@ body #main-content #projects #projects-content {
 body #main-content #projects #projects-content .project {
   width: 280px;
   height: 220px;
-  border: 2px solid lightblue;
+  border: 2px solid red;
   text-decoration: none;
   font-weight: 700;
 }
